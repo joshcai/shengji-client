@@ -1,0 +1,27 @@
+<html>
+  <body>
+    <div style="text-align: center">
+      <span id="score"></span>&nbsp;&nbsp;
+      <input type="text" id="name"  value="josh" placeholder="Name"></input>
+      <!-- <button onclick="ready()">Ready</button> -->
+      <button onclick="start()">Start</button>
+      <input type="text" id="card"  value="0" placeholder="Card num"></input>
+      <button onclick="playCard()">Play Card</button>
+      <select id="declare">
+        <option value="clubs" selected="selected">clubs</option>
+        <option value="diamonds">diamonds</option>
+        <option value="hearts">hearts</option>
+        <option value="spades">spades</option>
+      </select>
+      <button onclick="declare()">declare</button>
+      <button onclick="bottomExchange()">bottomExchange</button>
+      <br>
+      <textarea id="game" rows="35" cols="100"></textarea>
+      <br>
+      <textarea id="cardsArea" rows="5" cols="100"></textarea>
+    </div>
+    <script src="game.js"></script>
+  </body>
+
+</html>
+
